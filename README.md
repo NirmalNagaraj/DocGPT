@@ -36,7 +36,10 @@ Follow these steps to clone, set up, and run DocGPT:
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file by copying the `.env.example` file and replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key:
+4. Create a `.env` file by copying the `.env.example` file and replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key: (or) Create a `.env` file and include this line
+      ```
+      OPENAI_API_KEY = "YOUR API KEY "
+      ```
 
 
 5. Run the application using Streamlit:
@@ -44,7 +47,7 @@ Follow these steps to clone, set up, and run DocGPT:
     streamlit run app.py
    ```
 
-6. Open your web browser and access the DocGPT interface at `http://localhost:8501`.
+7. Open your web browser and access the DocGPT interface at `http://localhost:8501`.
 
 That's it! You're now ready to use DocGPT for document analysis and data science tasks.
 

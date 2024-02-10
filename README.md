@@ -23,7 +23,7 @@ Follow these steps to clone, set up, and run DocGPT:
 
 1. Clone this repository to your local machine using Git:
    ```
-   git clone https://github.com/your-username/DocGPT.git
+   https://github.com/NirmalNagaraj/DocGPT.git
    ```
 
 2. Navigate to the project directory:
